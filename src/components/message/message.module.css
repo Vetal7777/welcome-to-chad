@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    box-shadow: 0px 1px 5px rgba(108, 117, 139, 0.4);
+    border-radius: 4px;
+    position: absolute;
+    top: 40px;
+    right: 32px;
+    padding: 12px 18px;
+    row-gap: 10px;
+    align-items: start;
+    min-width: 308px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.container.error{
+    background: #FEF0F0;
+}
+.content{
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+}
+.error .content{
+    color: #D24646;
+}
+.message .content{
+    color: #65BD47;
+}
+.line{
+    min-width: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.error .line{
+    background: #D24646;
+}
+.message .line{
+    background: #65BD47;
+}
+.submit{
+    cursor: pointer;
+}
+.error path{
+    stroke: #D24646;
+}
+.message path {
+    stroke: #65BD47;
+}
+.submit:hover{
+    opacity: 0.5;
+}

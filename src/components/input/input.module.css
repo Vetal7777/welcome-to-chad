@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.title{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #4F637D;
+    font-family: 'Inter';
+}
+.error input.input{
+    background-color: white;
+    border: 1px solid #D24646;;
+}
+.message{
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #D24646;
+}
+input.input{
+    background: #F8F9FC;
+    border-radius: 4px;
+    padding: 10px 10px 10px 17px;
+    color: black;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 24px;
+    flex-grow: 1;
+    letter-spacing: -0.01em;
+    border: 1px solid #F8F9FC;
+}
+input.input:focus{
+    background: #FFFFFF;
+    border: 1px solid #32ABF2;
+    border-radius: 4px;
+}
+input.input::placeholder{
+    color: #C3CAD5;
+}
+div.input{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.checkbox{
+    cursor: pointer;
+    position: absolute;
+    right: 17px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox:hover{
+    opacity: 0.5;
+}

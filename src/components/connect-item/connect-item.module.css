@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    column-gap: 15px;
+}
+.container *{
+    font-family: 'Inter';
+}
+.title{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #5E636E;
+}
+.message{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #9196A1;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+.container svg{
+    margin-top: 8px;
+}

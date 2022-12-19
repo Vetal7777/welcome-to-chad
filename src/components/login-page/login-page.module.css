@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-basis: 60.6%;
+    padding: 64px 40px;
+    background: url("../../shared/images/form-back.jpg");
+}

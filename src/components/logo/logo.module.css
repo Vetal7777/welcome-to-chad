@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #20496C;
+    font-family: 'EudoxusSans';
+    font-weight: bold;
+}

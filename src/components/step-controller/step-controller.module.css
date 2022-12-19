@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 364px;
+    align-items: center;
+    margin: 0 calc((100% - 364px)/2);
+}
+.button{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+    padding: 6px 12px;
+    font-family: 'Inter';
+    letter-spacing: -0.01em;
+    color: #93A8C1;
+    font-size: 16px;
+    line-height: 21px;
+    background: #134267;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.prev svg{
+    transform: rotate(180deg);
+}
+.button:disabled{
+    background-color: unset;
+    opacity: 0.5;
+    cursor: unset;
+}

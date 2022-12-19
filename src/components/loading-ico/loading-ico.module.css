@@ -1,0 +1,13 @@
+.container{
+    animation-name: isLoading;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes isLoading {
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(360deg);
+    }
+}

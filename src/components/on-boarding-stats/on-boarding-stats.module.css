@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+.slider{
+    width: calc(39.4vw - 40px);
+}
+.control-dots{
+    display: none;
+}

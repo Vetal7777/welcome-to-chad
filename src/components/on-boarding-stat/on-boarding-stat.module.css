@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    padding: 16px;
+    background: #134267;
+    border-radius: 8px;
+    column-gap: 16px;
+    max-width: 364px;
+    align-items: center;
+    margin: auto;
+}
+.number{
+    color: #96CAF7;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 32px;
+    line-height: 100%;
+}
+.content{
+    color: #96CAF7;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    font-family: 'Inter';
+}

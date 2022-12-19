@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(339.02deg, #0D3251 0%, #19476C 103.05%);
+    flex-basis: 39.4%;
+    min-height: 100%;
+    padding: 200px 20px 80px 20px;
+    row-gap: 48px;
+    overflow: hidden;
+    min-width: 404px;
+}

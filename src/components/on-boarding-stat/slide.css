@@ -1,0 +1,18 @@
+.carousel-slider.carousel .control-dots{
+    margin: 0;
+    bottom: -34px;
+}
+.carousel .control-dots .dot.selected{
+    background: #96CAF7;
+}
+.carousel .control-dots .dot{
+    background: #134267;
+    opacity: 1;
+    box-shadow: unset;
+}
+.carousel-slider.carousel.carousel-slider{
+    overflow: unset;
+}
+.carousel.carousel-slider .slider-wrapper *{
+    text-align: unset;
+}
